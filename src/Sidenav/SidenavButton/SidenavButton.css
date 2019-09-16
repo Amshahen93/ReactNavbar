@@ -1,0 +1,49 @@
+.SidenavButton{
+    position: relative;
+    border-radius: 0px !important;
+    width: 100%;
+    height: 50px;
+    box-shadow: none !important;
+    outline: none !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    padding-left: 7px !important;
+}
+.menu {
+    background-color: #2691BB !important;
+    color: white !important;
+}
+.sub_menu {
+    background-color: white !important;
+    color: #607D8B !important;
+}
+.menu:hover{
+    background-color: rgb(1, 111, 155) !important;
+}
+.icon{
+    width: 60px;
+    display: flex;
+}
+.title{
+    position: absolute;
+    left: 55px;
+    width: 340px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.active{
+    background-color: rgb(32, 67, 83) !important;
+}
+.sub_menu:hover {
+    background-color: #EBEBEB !important;
+}
+.active:hover{
+    background-color: #1C333E !important;
+}

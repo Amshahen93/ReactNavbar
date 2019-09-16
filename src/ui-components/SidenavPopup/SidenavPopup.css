@@ -1,0 +1,19 @@
+.Popup{
+    position : fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.Popup::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}

@@ -1,0 +1,45 @@
+[{
+    "name": "Customer Support",
+    "icon": "directions_car",
+    "type": "menu",
+    "submenu": null,
+    "rout": "customer-support",
+    "popup": null
+}, {
+    "name": "Dispatch Management",
+    "icon": "pie_chart",
+    "type": "menu",
+    "submenu": [{
+            "name": "Couriers",
+            "icon": "rowing icon",
+            "type": "sub_menu",
+            "rout": "couriers",
+            "popup": null
+        }, {
+            "name": "Active Couriers",
+            "icon": "directions_bike",
+            "type": "sub_menu",
+            "rout": "active-couriers",
+            "popup": null
+        }, {
+            "name": "Messaging",
+            "icon": "speaker_notes",
+            "type": "sub_menu",
+            "rout": "messaging",
+            "popup": null
+        }, {
+            "name": "Create Team",
+            "icon": "supervisor_account",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "CreateTeam"
+        }, {
+            "name": "Driver License Type",
+            "icon": "chrome_reader_mode",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "DriverLicenseType"
+        }],
+    "rout": null,
+    "popup": null
+}]
