@@ -42,4 +42,114 @@
         }],
     "rout": null,
     "popup": null
+}, {
+    "name": "Partner Management",
+    "icon": "ballot",
+    "type": "menu",
+    "submenu": [{
+            "name": "Partners List",
+            "icon": "store",
+            "type": "sub_menu",
+            "rout": "partners-list",
+            "popup": null
+        }, {
+            "name": "Menu",
+            "icon": "restaurant",
+            "type": "sub_menu",
+            "rout": "menu",
+            "popup": null
+        }, {
+            "name": "Product",
+            "icon": "local_pizza",
+            "type": "sub_menu",
+            "rout": "product",
+            "popup": null
+        }, {
+            "name": "Legal Entities",
+            "icon": "assignment_ind",
+            "type": "sub_menu",
+            "rout": "legal-entities",
+            "popup": null
+        }, {
+            "name": "Brand List",
+            "icon": "local_offer",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "brandList"
+        }, {
+            "name": "Partner Category",
+            "icon": "style",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "partnerCategory"
+        }, {
+            "name": "Service Type",
+            "icon": "room_service",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "serviceType"
+        }, {
+            "name": "Service Category",
+            "icon": "category",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "serviceCategory"
+        }, {
+            "name": "Commission Category",
+            "icon": "widgets",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "commissionCategory"
+        }, {
+            "name": "Section List",
+            "icon": "fastfood",
+            "type": "sub_menu",
+            "rout": "section-list",
+            "popup": null
+        }, {
+            "name": "Section Category",
+            "icon": "view_comfy",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "sectionCategory"
+        }],
+    "rout": null,
+    "popup": null
+}, {
+    "name": "Inventory Management",
+    "icon": "business",
+    "type": "menu",
+    "submenu": [{
+            "name": "Inventory Management",
+            "icon": "view_module",
+            "type": "sub_menu",
+            "rout": "inventory-management",
+            "popup": null
+        }, {
+            "name": "Create Item Type",
+            "icon": "all_out",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "createItemType"
+        }, {
+            "name": "Create Location",
+            "icon": "business",
+            "type": "sub_menu",
+            "rout": "create-location",
+            "popup": null
+        }, {
+            "name": "Create Team",
+            "icon": "sync",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "createTeam"
+        }, {
+            "name": "Adjustment List",
+            "icon": "healing",
+            "type": "sub_menu",
+            "rout": null,
+            "popup": "adjustmentList"
+        }],
+    "rout": null,
+    "popup": null
 }]
